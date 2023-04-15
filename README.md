@@ -23,7 +23,7 @@ The Rakit Validation module which handles the errors in the background comes wit
 ...
 ```
 
-So instead of translating the whole message we just translate the field name. The original error message is translated by this module.
+So instead of translating the whole message we just translate the field name. The original error message with placeholders is translated by this module.
 
 Rakit Validation has already the functionality to do this .. called "alias".
 
