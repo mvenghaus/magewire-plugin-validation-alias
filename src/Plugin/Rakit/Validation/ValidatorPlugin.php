@@ -45,4 +45,8 @@ class ValidatorPlugin
 
         return $validation;
     }
+
+    public function around__invoke(Validator $subject, callable $proceed, ...$args) {
+        return $proceed(...$args);
+    }
 }
